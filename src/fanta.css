@@ -124,7 +124,20 @@ body {
     color: var(--color-primary);
     font-size: 0.875rem;
     line-height: 1.6rem;
+    overflow: auto;
 }
+
+body::-webkit-scrollbar {
+    display: none; /* For Chrome, Safari, and Edge */
+}
+
+.scroll{
+    overflow: auto;
+}
+.scroll::-webkit-scrollbar {
+    display: none; /* For Chrome, Safari, and Edge */
+}
+
 
 /* Special */
 .text-gradient {

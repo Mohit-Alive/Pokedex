@@ -20,7 +20,7 @@ export function SideNav(props){
     })
 
   return (
-    <nav className={' ' + (!showSideNav ? "open" : '')}>
+    <nav className={' ' + (!showSideNav ? "open" : '') + " scroll"}>
         <div className={"header " + (!showSideNav ? "open" : '')}>
 
             <button onClick={handleCloseMenu} className="open-nav-button">
